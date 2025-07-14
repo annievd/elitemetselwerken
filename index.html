@@ -1,68 +1,67 @@
 
 <!DOCTYPE html>
-<html lang="nl">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elite Metselwerken bij Jeffrey</title>
     <style>
         body {
-            background-color: black;
+            background-color: #000;
             color: white;
             font-family: Arial, sans-serif;
-            margin: 0;
-        }
-        header {
-            background-color: #ffcc00;
-            text-align: center;
-            padding: 20px 10px;
-        }
-        header img {
-            width: 30%;
-            margin: 10px;
-            border: 4px solid green;
-        }
-        section {
             padding: 20px;
         }
-        .contact {
-            background-color: #111;
-            padding: 20px;
+        h1 {
+            color: gold;
+        }
+        h2 {
+            color: lime;
         }
         a {
-            color: #00ffcc;
+            color: lime;
         }
-        .whatsapp {
-            display: inline-block;
-            background-color: #25D366;
-            color: white;
-            padding: 12px 20px;
-            margin-top: 10px;
-            text-decoration: none;
-            border-radius: 6px;
+        .projects {
+            display: flex;
+            gap: 20px;
+        }
+        .project {
+            text-align: center;
+        }
+        img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            border: 2px solid #555;
         }
     </style>
 </head>
 <body>
-
-<header>
     <h1>Elite Metselwerken bij Jeffrey</h1>
-    <img src="images/header1.jpeg" alt="Metselwerk">
-    <img src="images/header2.jpeg" alt="Detail">
-    <img src="images/header3.jpeg" alt="Bouwplaats">
-</header>
-
-<section>
     <h2>Over ons</h2>
-    <p>Wij zijn Elite Metselwerken, jouw betrouwbare partner in professioneel metselwerk. Kwaliteit, vakmanschap & klanttevredenheid staan bij ons centraal. Wij helpen bij voegen, isoleren, stelwerk en complete aanbouwen. Een offerte aanvragen is altijd geheel vrijblijvend.</p>
-</section>
+    <p>
+        Met meer dan 25 jaar vakmanschap is Elite Metselwerken jouw betrouwbare partner voor al je bouwprojecten. 
+        Wij zijn gespecialiseerd in metselen, voegen, isoleren, betonstorten en het realiseren van complete aanbouwen. 
+        Kwaliteit, precisie en klanttevredenheid staan bij ons altijd centraal.
+    </p>
 
-<section class="contact">
+    <div class="projects">
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1">
+            <p>Project 1</p>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2">
+            <p>Project 2</p>
+        </div>
+        <div class="project">
+            <img src="project3.jpg" alt="Project 3">
+            <p>Project 3</p>
+        </div>
+    </div>
+
     <h2>Contact</h2>
     <p>Email: <a href="mailto:info@elitemetselwerken.nl">info@elitemetselwerken.nl</a></p>
-    <p>Telefoon: <a href="tel:+31657563883">06 5756 3883</a></p>
-    <a class="whatsapp" href="https://wa.me/31657563883" target="_blank">Offerte via WhatsApp</a>
-</section>
-
+    <p>Telefoon: <a href="tel:+31657653883">06 5765 3883</a></p>
+    <p><a href="https://wa.me/31657653883" target="_blank">Offerte via WhatsApp</a></p>
 </body>
 </html>
